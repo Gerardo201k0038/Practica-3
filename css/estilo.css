@@ -1,0 +1,120 @@
+/* 
+#8404D9
+#2E038C
+#0D0259
+#F2CB05
+#F25041
+
+*/
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*Genericos */
+
+.contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+.bg-img-fondo{
+background-image:url(/assets/fondo-header.jpg);
+height:18.78em;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.bg-transp{
+    background-color:rgba(0, 0, 0, 0.539);
+    padding: 1.5em;
+}
+.nav-logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.nav-logo img{
+    width: 2em;
+}
+.nav-menu{
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.link-menu{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1em;
+
+}
+
+.link-menu:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 0.3em;
+}
+/*Principal*/
+.principal{
+    background-color:#F25041;
+    margin-top: 2.5em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+
+}
+.titulo-principal{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+/*tarjeta*/
+.btn{
+    display: inline-block;
+    background-color: #F2CB05;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+
+  }
+  .card{
+    
+    background-color:#8404D9;
+    border-radius: 0.3rem;
+    margin-bottom: 1em;
+
+  }
+  .img-card{
+    width: 100%;
+
+  }
+
+  .body-card{
+    
+    padding:  1em 2em;
+
+  }
+
+  .body-card h3{
+    font-size: 1.5rem;
+    font-size: 700;
+    text-align: center;
+  }
